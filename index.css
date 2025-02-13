@@ -611,4 +611,23 @@ body {
     background-image: url("./pictures/wallpaper4.jpeg");
 };
 
+#bread {
+  font-size: 30px;
+}
 
+#number {
+
+  font-weight: bold;
+}
+
+#hi {
+  font-weight: bold;
+}
+
+#professional {
+  font-weight: bold;
+}
+
+#role {
+  font-size: 14px;
+}
