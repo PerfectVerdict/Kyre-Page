@@ -598,6 +598,7 @@ html {
 
 #name {
     font-weight: bold;
+    color: black;
 }
 p {
     color: #b12900;
@@ -606,4 +607,8 @@ p {
 }
 
 
-    
+body {
+    background-image: url("./pictures/wallpaper4.jpeg");
+};
+
+
