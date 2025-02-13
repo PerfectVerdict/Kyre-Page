@@ -100,7 +100,7 @@ html {
     position: relative;
     margin: 25px 30px;
   }
-  
+  /*
   .profile-card header a:after {
     position: absolute;
     content: "";
@@ -120,7 +120,7 @@ html {
     -webkit-animation: scaleIn 0.3s 3.5s ease forwards;
     animation: scaleIn 0.3s 3.5s ease forwards;
   }
-  
+  */
   .profile-card header a > img {
     width: 120px;
     max-width: 100%;
