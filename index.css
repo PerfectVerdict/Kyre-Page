@@ -61,7 +61,7 @@ html {
     left: 50%;
     top: 50%;
     z-index: 2;
-    overflow: hidden;
+    overflow:visible;
     opacity: 0;
     margin-top: 70px;
     -webkit-transform: translate(-50%, -50%);
@@ -598,7 +598,8 @@ html {
 
 #name {
     font-weight: bold;
-    color: black;
+    color: #b12900;    
+    font-style: italic;
 }
 p {
     color: #b12900;
@@ -622,6 +623,9 @@ body {
 
 #hi {
   font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  color: black;
 }
 
 #professional {
@@ -630,4 +634,31 @@ body {
 
 #role {
   font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  color: #b12900;
+  
+}
+
+a {
+  color: black;
+}
+
+#resume {
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-size: 17px;
+}
+
+#fat {
+  font-size: 18px;
+  display: inline;
+}
+
+#icon-and-hi {
+  display: inline-block;
+  
 }
