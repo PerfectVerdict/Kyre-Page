@@ -1,0 +1,125 @@
+blockquote{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 25px;
+    line-height: 1.2;
+    color: black;
+    text-align: justify;
+    
+    /*Borders - (Optional)*/
+    border-left: 15px solid #0c92c7;
+    border-right: 2px solid #c76c0c;
+    
+    /*Box Shadow - (Optional)*/
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+  
+  blockquote::before{
+    content: "\201C"; /*Unicode for Left Double Quote*/
+    
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    
+    /*Positioning*/
+    position: absolute;
+    left: 10px;
+    top:5px;
+  }
+  
+  blockquote::after{
+    /*Reset to make sure*/
+    content: "";
+  }
+  
+  blockquote a{
+    text-decoration: none;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 3px;
+    color: #c76c0c;
+  }
+  
+  blockquote a:hover{
+   color: #666;
+  }
+  
+  blockquote em{
+    font-style: italic;
+  }
+
+
+
+
+
+
+  /* link*/
+  .stage {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .tabled, .middled {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .thin { font-weight: 300; }
+  .thick { font-weight: 400; }
+  
+  a {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: block;
+  }
+  
+  p {
+    font-weight: 100;
+    font-size: 80%;
+    margin: 1px;
+  }
+  
+  [class^="link-"] {
+    display: inline-block;
+    margin: 2em
+  }
+  
+ 
+  
+  /* linkfour */
+  .link-4 a:before {
+    content: '';
+    border-bottom: solid 1px rgb(255, 0, 0);
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+  }
+  
+  .link-4 a:hover:before {
+    border-bottom: solid thin #5CAAEF;
+  }
+  
+  .link-4 a:before {
+    -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+  }
+  
+
+  
+  
+  #Ethan {
+    font-size: 15px;
+  }
