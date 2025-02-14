@@ -1,15 +1,20 @@
+body {
+    background-image: url('./pictures/3.jpg');
+}
 blockquote{
     display:block;
     background: #fff;
+    background-color: rgba(0, 0, 0, 0.904); /* Red background with 50% transparency */
     padding: 15px 20px 15px 45px;
     margin: 0 0 20px;
     position: relative;
     
     /*Font*/
     font-family: Georgia, serif;
-    font-size: 25px;
+    font-size: 22px;
+    word-spacing: 9px;
     line-height: 1.2;
-    color: #b12900;
+    color: white;
     text-align: justify;
     
     /*Borders - (Optional)*/
@@ -17,10 +22,10 @@ blockquote{
 
     border-right: 2px solid #c76c0c;
     
-    /*Box Shadow - (Optional)*/
-    -moz-box-shadow: 2px 2px 15px #ccc;
-    -webkit-box-shadow: 2px 2px 15px #ccc;
-    box-shadow: 2px 2px 15px #ccc;
+    Box Shadow - (Optional)
+    /* -moz-box-shadow: 2px 2px 15px #b12900;
+    -webkit-box-shadow: 2px 2px 15px #b12900; */
+    /* box-shadow: 2px 2px 15px #b12900; */
   }
   
   blockquote::before{
@@ -75,7 +80,7 @@ blockquote{
     margin: 0 auto;
   }
   
-  .thin { font-weight: 300; }
+  .thin { font-weight: 300; color: white; }
   .thick { font-weight: 400; }
   
   a {
@@ -123,10 +128,33 @@ blockquote{
   
   #Ethan {
     font-size: 15px;
-    color: black;
+    color: white;
   }
 
   .thick {
     color: #b12900;
 
   }
+
+  span {
+    background: linear-gradient(to right, #48a7ff, #ffffff, #48a7ff); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text color transparent */
+
+  }
+  
+  #kyre-quote-1 {
+      background: linear-gradient(to right, #ffffff, #ffc476); /* Gradient colors */
+      -webkit-background-clip: text; /* Clip the background to the text */
+      color: transparent; /* Make the text color transparent */
+  }
+#kyre-quote-2 {
+    background: linear-gradient(to right, #ffc476, #ffbb00); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text color transparent */
+}
+#kyre-quote-3 {
+    background: linear-gradient(to right, #fdf900, #ff90f9); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text color transparent */
+}
