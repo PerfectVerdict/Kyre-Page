@@ -145,17 +145,17 @@ blockquote{
   
 
 #kyre-quote-1 {
-    background: linear-gradient(to right, #eeff00, #ffffff, #ffffff); 
+    background: linear-gradient(to right, #2c53ff, #ffffff, #ffffff); 
         -webkit-background-clip: text; /* Clip the background to the text */
         color: transparent; /* Make the text color transparent */
 }
 #kyre-quote-2 {
-    background: linear-gradient(to right, #eeff00, #ffffff, #ffffff); 
+    background: linear-gradient(to right, #2c53ff, #ffffff, #FFFFFF); 
     -webkit-background-clip: text; /* Clip the background to the text */
     color: transparent; /* Make the text color transparent */
 }
 #kyre-quote-3 {
-    background: linear-gradient(to right, #eeff00, #ffe600,  #ffe600); 
+    background: linear-gradient(to right, #aebdff, #aebdff, #ffffff); 
     -webkit-background-clip: text; /* Clip the background to the text */
     color: transparent; /* Make the text color transparent */
 }
