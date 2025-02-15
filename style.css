@@ -90,7 +90,7 @@ blockquote{
     margin: 0 auto;
   }
   
-  .thin { font-weight: 300; color: white; }
+  .thin { font-weight: 600; color: rgb(0, 0, 0);}
   .thick { font-weight: 400; }
   
   a {
@@ -184,4 +184,11 @@ blockquote{
   #Ethan {
 
     color: white;
+  }
+
+
+  .link-4 {
+    display: flex;
+   justify-content: center;
+   color: black;
   }
