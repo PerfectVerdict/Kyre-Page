@@ -14,7 +14,7 @@ html, body {
 blockquote{
     display:block;
     background: #fff;
-    background-color: rgba(0, 0, 0, 0.685); /* Red background with 50% transparency */
+    background-color: rgba(0, 0, 0, 0.801); /* Red background with 50% transparency */
     padding: 15px 20px 15px 45px;
     margin: 0 0 20px;
     position: relative;
@@ -135,11 +135,6 @@ blockquote{
   
 
   
-  
-  #Ethan {
-    font-size: 13px;
-    color: white;
-  }
 
   .thick {
     color: #b12900;
@@ -170,7 +165,23 @@ blockquote{
     color: transparent; /* Make the text color transparent */
 }
 #heat {
-    background: linear-gradient(to right, #ff0000, #ffe600); /* Gradient colors */
+    background: linear-gradient(to right, #ff0000, #ffe600,#008cff); /* Gradient colors */
     -webkit-background-clip: text; /* Clip the background to the text */
     color: transparent; /* Make the text color transparent */
 }
+#good-guy {
+  background: linear-gradient(to right,  #00ffff, #00ffff,#008cff); /* Gradient colors */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  color: transparent; /* Make the text color transparent */
+}
+
+#actual-quote {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  #Ethan {
+
+    color: white;
+  }
