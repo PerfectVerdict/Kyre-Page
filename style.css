@@ -12,7 +12,7 @@ blockquote{
     /*Font*/
     font-family: Georgia, serif;
     font-size: 22px;
-    word-spacing: 9px;
+    word-spacing: 5px;
     line-height: 1.2;
     color: white;
     text-align: justify;
@@ -127,7 +127,7 @@ blockquote{
   
   
   #Ethan {
-    font-size: 15px;
+    font-size: 13px;
     color: white;
   }
 
