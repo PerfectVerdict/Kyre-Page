@@ -192,3 +192,47 @@ blockquote{
    justify-content: center;
    color: black;
   }
+  @media (max-width: 768px) {
+    html, body {
+      height: 100%;
+      /* Make sure the background image covers the full viewport on small screens */
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+  html, body {
+    height: 100%; /* Ensure both html and body take up the full height of the viewport */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    background-image: url('./pictures/wallpaper4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Make sure the body has full height */
+  body {
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  }
+  
+  /* Remove potential overflow or issues on small screens */
+  @media (max-width: 768px) {
+    html, body {
+      background-size: cover; /* Ensures the image covers the full screen */
+      background-position: center; /* Keeps the background centered */
+      background-attachment: fixed; /* Prevents scrolling issues */
+    }
+  
+    /* In case other content has unwanted margin/padding on small screens */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  /* Check if other content elements are affecting the layout */
+  * {
+    box-sizing: border-box; /* Prevent any elements from overflowing their parent containers */
+  }
+  
