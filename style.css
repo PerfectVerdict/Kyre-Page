@@ -1,10 +1,20 @@
 body {
-    background-image: url('./pictures/3.jpg');
+    background-image: url('./pictures/wallpaper4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
+html, body {
+  height: 100%; /* Ensure both html and body take up the full height of the viewport */
+  margin: 0;    /* Remove any default margin */
+  padding: 0;   /* Remove any default padding */
+}
+
 blockquote{
     display:block;
     background: #fff;
-    background-color: rgba(0, 0, 0, 0.904); /* Red background with 50% transparency */
+    background-color: rgba(0, 0, 0, 0.685); /* Red background with 50% transparency */
     padding: 15px 20px 15px 45px;
     margin: 0 0 20px;
     position: relative;
@@ -22,7 +32,7 @@ blockquote{
 
     border-right: 2px solid #c76c0c;
     
-    Box Shadow - (Optional)
+    Box Shadow - (Optional);
     /* -moz-box-shadow: 2px 2px 15px #b12900;
     -webkit-box-shadow: 2px 2px 15px #b12900; */
     /* box-shadow: 2px 2px 15px #b12900; */
@@ -43,10 +53,10 @@ blockquote{
     top:5px;
   }
   
-  blockquote::after{
+  /* blockquote::after{
     /*Reset to make sure*/
-    content: "";
-  }
+    
+
   
   blockquote a{
     text-decoration: none;
